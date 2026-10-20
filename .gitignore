@@ -1,0 +1,46 @@
+# AWS SAM Build artifacts
+.aws-sam/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# Virtual environments
+venv/
+.venv/
+
+# Local credentials & configs
+.env
+.aws/
+credentials
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Generated data and databases
+chroma_db/
+chroma.sqlite3
+*.db
+*.sqlite

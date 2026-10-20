@@ -1,0 +1,11 @@
+{
+  "include": [
+    "cloud_aws"
+  ],
+  "extraPaths": [
+    "cloud_aws/src",
+    "cloud_aws/scripts",
+    "cloud_aws"
+  ],
+  "pythonPath": "C:\\Users\\HEMASHRI S\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+}
